@@ -8,6 +8,7 @@ import { ContentDisplayComponent } from './content-display/content-display.compo
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { P404Component } from './p404/p404.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     ContentDisplayComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    P404Component
   ],
   imports: [
     BrowserModule,
